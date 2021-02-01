@@ -19,7 +19,8 @@ Each region, as described above, was designed to most closely fit a 10x10 degree
 The file with the 'Dates' prefix describes the dates and times that each sample in the data files occurs at.
 These data files span the entirety of the year 2018, and includes data from January, April, July, and October of 2019.
 The data is of hourly temporal resolution, coming from the top of the hour scenes that were available.
-
+Since this thesis is partly a machine learning exercise, the datasets are broken into training and testing data segments, with the training data containing
+   arount 8000 samples and the testing dataset containing around 2800 samples. The total number of samples, therefore, is around 10,800.
 These data files have already been screened to remove bad/missing data.
 
 Credit to Kyle Hilburn for developing the workflow to create these files.
