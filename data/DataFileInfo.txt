@@ -12,9 +12,11 @@ Pacific Northwest (SecNW): 37.6-48 North, 124-113.6 West
        Gulf Coast (SecSE): 25-35.4 North, 91-80.6 West
       New England (SecNE): 36-46.4 North, 83.4-73 West
 
-These files contain GOES-16 Water Vapor, Infrared, and Lightning Mapper data, specifically those of GOES channels 8, 9, 10, 13,and 15, along with GLM flash density
+These files contain GOES-16 Water Vapor, Infrared, and Lightning Mapper data, specifically those of GOES channels 8, 9, 10, 13,and 15, 
+   along with GLM flash density
 These data have all been resampled to a common grid, that being the 3km HRRR grid.
-Each region, as described above, was designed to most closely fit a 10x10 degree lat/lon domain, while using a number of pixels that has an LCM of 2 (384x384 pixels).
+Each region, as described above, was designed to most closely fit a 10x10 degree lat/lon domain, 
+   while using a number of pixels that has an LCM of 2 (384x384 pixels). This was determined after the data had been resampled to the HRRR grid.
 
 The file with the 'Dates' prefix describes the dates and times that each sample in the data files occurs at.
 These data files span the entirety of the year 2018, and includes data from January, April, July, and October of 2019.
