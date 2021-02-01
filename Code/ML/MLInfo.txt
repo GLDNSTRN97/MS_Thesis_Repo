@@ -1,0 +1,5 @@
+This folder contains the machine learning code used to generate the MRMS PrecipRate estimates.
+
+There are two types of code used here: the architecture code and the processing code
+The architecture code builds and trains the machine learning algorithm. This is the code that is to be tuned to improve the performance of the algorithm.
+The processing code generates the estimates created by the trained architecture, alongside various performance metrics.
