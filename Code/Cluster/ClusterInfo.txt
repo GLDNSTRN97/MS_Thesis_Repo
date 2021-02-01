@@ -1,0 +1,6 @@
+This folder contains the code used to develop the error clustering model.
+
+The purpose of this set of code is to classify the error behaviors of the machine learning estimates created by the code in the ML folder by observed regime.
+
+With this cluster analysis, it is hypothesized that the machine learning estimator will have similar errors in these regimes, regardless of physical location.
+Therefore, even without the presence of a 'truth' to compare against, one can understand the error of the architecture by understanding the scene environment.
