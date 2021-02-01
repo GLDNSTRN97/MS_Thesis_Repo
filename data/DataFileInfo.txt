@@ -23,6 +23,8 @@ These data files span the entirety of the year 2018, and includes data from Janu
 The data is of hourly temporal resolution, coming from the top of the hour scenes that were available.
 Since this thesis is partly a machine learning exercise, the datasets are broken into training and testing data segments, with the training data containing
    arount 8000 samples and the testing dataset containing around 2800 samples. The total number of samples, therefore, is around 10,800.
+The data are also randomized by time, such as they are not chronological; nonetheless, the training data is from 2018 only, while the tesing data is from 2019 only.
+The order of dates in this file is identical for all of the datasets.
 These data files have already been screened to remove bad/missing data.
 
-Credit to Kyle Hilburn for developing the workflow to create these files.
+Credit to Kyle Hilburn for developing the workflow and intermediate files to create these datasets.
