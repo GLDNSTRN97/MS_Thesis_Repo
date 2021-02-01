@@ -1,0 +1,25 @@
+In this folder, the datasets that were used to complete this thesis are stored.
+
+Each data file is approximately 54GB, making the total size of the data used roughly 270GB.
+
+The files with the 'Sec' prefix represent data from different regions of the CONUS 
+(i.e: 'SecCP' is for the Central Plains, 'SecNW' is for the Pacific Northwest, etc.)
+A more complete description of the region locations (Latitdue, Longitude) is included below:
+
+   Central Plains (SecCP): 35-45.4 North, 103-92.6 West
+Pacific Northwest (SecNW): 37.6-48 North, 124-113.6 West
+ Desert Southwest (SecSW): 30-40.4 North, 117-106.6 West
+       Gulf Coast (SecSE): 25-35.4 North, 91-80.6 West
+      New England (SecNE): 36-46.4 North, 83.4-73 West
+
+These files contain GOES-16 Water Vapor, Infrared, and Lightning Mapper data, specifically those of GOES channels 8, 9, 10, 13,and 15, along with GLM flash density
+These data have all been resampled to a common grid, that being the 3km HRRR grid.
+Each region, as described above, was designed to most closely fit a 10x10 degree lat/lon domain, while using a number of pixels that has an LCM of 2 (384x384 pixels).
+
+The file with the 'Dates' prefix describes the dates and times that each sample in the data files occurs at.
+These data files span the entirety of the year 2018, and includes data from January, April, July, and October of 2019.
+The data is of hourly temporal resolution, coming from the top of the hour scenes that were available.
+
+These data files have already been screened to remove bad/missing data.
+
+Credit to Kyle Hilburn for developing the workflow to create these files.
